@@ -27,6 +27,6 @@ d = {"employees": [
 }
 
 # Print out the last name of the second employee
-print(d["employees"][1]["lastName"])
-print(d["owners"][0]["firstName"], d["owners"][0]["lastName"])
+print("The last name of the second employee is: ", d["employees"][1]["lastName"])
+print("The first and last name of the first owner is: ", d["owners"][0]["firstName"], d["owners"][0]["lastName"])
 print(d.get("Alexandra"))
